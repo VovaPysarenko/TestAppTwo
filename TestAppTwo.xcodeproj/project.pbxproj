@@ -13,6 +13,8 @@
 		80C4882B25E7B9230050AC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C4882925E7B9230050AC35 /* Main.storyboard */; };
 		80C4882D25E7B9250050AC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C4882C25E7B9250050AC35 /* Assets.xcassets */; };
 		80C4883025E7B9250050AC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C4882E25E7B9250050AC35 /* LaunchScreen.storyboard */; };
+		80C4883A25E7BC550050AC35 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4883825E7BC550050AC35 /* TestViewController.swift */; };
+		80C4883B25E7BC550050AC35 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80C4883925E7BC550050AC35 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		80C4882C25E7B9250050AC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C4882F25E7B9250050AC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C4883125E7B9250050AC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C4883825E7BC550050AC35 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		80C4883925E7BC550050AC35 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				80C4882325E7B9230050AC35 /* AppDelegate.swift */,
 				80C4882525E7B9230050AC35 /* SceneDelegate.swift */,
 				80C4882725E7B9230050AC35 /* ViewController.swift */,
+				80C4883825E7BC550050AC35 /* TestViewController.swift */,
+				80C4883925E7BC550050AC35 /* TestViewController.xib */,
 				80C4882925E7B9230050AC35 /* Main.storyboard */,
 				80C4882C25E7B9250050AC35 /* Assets.xcassets */,
 				80C4882E25E7B9250050AC35 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 			files = (
 				80C4883025E7B9250050AC35 /* LaunchScreen.storyboard in Resources */,
 				80C4882D25E7B9250050AC35 /* Assets.xcassets in Resources */,
+				80C4883B25E7BC550050AC35 /* TestViewController.xib in Resources */,
 				80C4882B25E7B9230050AC35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				80C4882825E7B9230050AC35 /* ViewController.swift in Sources */,
 				80C4882425E7B9230050AC35 /* AppDelegate.swift in Sources */,
+				80C4883A25E7BC550050AC35 /* TestViewController.swift in Sources */,
 				80C4882625E7B9230050AC35 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
